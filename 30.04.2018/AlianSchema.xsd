@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:complexType name ="AliansType">
+    <xs:sequence>
+      <xs:element name ="alian" type="alian"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name ="AliansType">
+    <xs:sequence>
+      <xs:element name ="name" type="String"></xs:element>
+      <xs:element name="country" type="String"></xs:element>
+    </xs:sequence>
+    <xs:attribute name="aid" type="xs:ID" use="required"></xs:attribute>
+  </xs:complexType>
+  <xs:element name="Global" type="String"></xs:element>
+  
+</xs:schema>
